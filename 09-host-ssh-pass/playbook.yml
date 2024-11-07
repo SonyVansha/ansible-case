@@ -1,0 +1,5 @@
+- name: Ansible ssh password
+  hosts: server1
+  tasks:
+    - name: create file using variable
+      command: "touch /tmp/ansiblewithpass.txt"
